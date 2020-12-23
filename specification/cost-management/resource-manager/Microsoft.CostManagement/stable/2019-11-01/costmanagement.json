@@ -2178,17 +2178,7 @@
           "type": "array",
           "items": {
             "type": "array",
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "integer"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "items": {}
           }
         }
       }
