@@ -2179,7 +2179,7 @@
           "items": {
             "type": "array",
             "items": {
-              "type": "string"
+              "oneOf": ["string", "integer", "number"]
             }
           }
         }
