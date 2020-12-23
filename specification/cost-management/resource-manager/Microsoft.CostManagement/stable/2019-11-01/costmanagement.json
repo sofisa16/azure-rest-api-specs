@@ -2177,8 +2177,17 @@
           "description": "Array of rows",
           "type": "array",
           "items": {
-            "type": "array",
-            "items": {}
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              }
+            ]
           }
         }
       }
