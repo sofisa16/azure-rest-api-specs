@@ -2178,19 +2178,17 @@
           "type": "array",
           "items": {
             "type": "array",
-            "items": {
-              "oneOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "integer"
-                },
-                {
-                  "type": "number"
-                }
-              ]
-            }
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "number"
+              }
+            ]
           }
         }
       }
